@@ -5,6 +5,8 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background: darkolivegreen;
+    font-size: 20px;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
@@ -21,7 +23,7 @@ body {
 }
 
 #textBox {
-    max-height: 25em;
+    max-height: 20em;
     overflow-x: hidden;
     overflow-y: auto;
 }
